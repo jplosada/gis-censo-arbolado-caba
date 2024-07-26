@@ -34,12 +34,12 @@ GeoPandas es una biblioteca de Python que facilita el trabajo con datos geoespac
 
 ### Kepler.gl
 
-Cómo herramienta de visualización de mapas con estructuras de índices H3. [enlace] (https://kepler.gl/)
+Cómo herramienta de visualización de mapas con estructuras de índices H3. [documentación oficial](https://kepler.gl/)
 
 ## Estructura del Proyecto
 
 - `DATA/`: Respositorio de datos necesarios para ejecutar la notebook.
-- `OUTPUT/`: Respositorio de archivos de salida luego de ejecutar la notebook. Estos archivos son utilizados luego para la visualización en el mapa utilizando [Kepler.gl](https://kepler.gl/). Dicho mapa es interactivo y se puede ver localmente abriendo el archivo kepler.gl.html con un browser
+- `OUTPUT/`: Respositorio de archivos de salida luego de ejecutar la notebook. Estos archivos son utilizados luego para la visualización en el mapa utilizando [documentación oficial](https://kepler.gl/). Dicho mapa es interactivo y se puede ver localmente abriendo el archivo kepler.gl.html con un browser
 - `README.md`: Este archivo, proporcionando una descripción general del proyecto.
 
 ## Instalación y Uso
