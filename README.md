@@ -8,6 +8,8 @@ El objetivo de este trabajo es mostrar a través de un ejemplo como realizar an�
 
 Se realiza una demo usando como indicador el ratio `cantidad de arboles autóctonos / cantidad total de arboles` encontrados dentro de cada hexágono H3 (Aprox. 105 mil metros cuadrados).
 
+Al final se podrán observar en el mapa las zonas con mayor y menor proporción de especies autóctonas. 
+
 ## Datos
 
 Los datos utilizados provienen del censo de arbolado urbano 2017-2018 de la Ciudad de Buenos Aires. Incluyen información detallada sobre la ubicación, especies y estado de los árboles en la ciudad.
@@ -41,8 +43,8 @@ Cómo herramienta de visualización de mapas con estructuras de índices H3. [do
 ## Estructura del Proyecto
 
 - `DATA/`: Respositorio de datos necesarios para ejecutar la notebook.
-- `OUTPUT/`: Respositorio de archivos de salida luego de ejecutar la notebook. Estos archivos son utilizados luego para la visualización en el mapa utilizando [documentación oficial](https://kepler.gl/). Dicho mapa es interactivo y se puede ver localmente abriendo el archivo kepler.gl.html con un browser
-- `README.md`: Este archivo, proporcionando una descripción general del proyecto.
+- `OUTPUT/`: Respositorio de archivos de datos de salida. Estos archivos son utilizados luego para la visualización en un mapa utilizando [documentación oficial](https://kepler.gl/). El mapa es interactivo y se puede ver localmente abriendo el archivo `kepler.gl.html` con un browser.
+- `exploracion.ipynb`: Esta notebook contiene el código necesario para descargar los datos del censo de arbolado, realizar el preprocesamiento de los datos incluyendo el cálculo del índice H3 y generar los archivos de salida para visualización la distribucíon del indicador en un mapa.
 
 ## Instalación y Uso
 
