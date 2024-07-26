@@ -6,7 +6,7 @@ Análisis del censo de arbolado urbano de la Ciudad de Buenos Aires, utilizando 
 
 El objetivo de este trabajo es mostrar a través de un ejemplo como realizar análisis exploratorio con datos geo referenciados, utilizando herramientas de geoprocesamiento y sistemas de indexación geoespacial y su potencial uso en aplicaciones de políticas públicas.
 
-Se realiza una demo usando como indicador el ratio `cantida de arboles autóctonos / cantidad total de arboles` encontrados dentro de cada hexágono H3 (Aprox. 105 mil metros cuadrados).
+Se realiza una demo usando como indicador el ratio `cantidad de arboles autóctonos / cantidad total de arboles` encontrados dentro de cada hexágono H3 (Aprox. 105 mil metros cuadrados).
 
 ## Datos
 
