@@ -1,10 +1,12 @@
-# Análisis del Censo de Arbolado de la Ciudad de Buenos Aires
+# DEMO: Análisis del Censo de Arbolado de la Ciudad de Buenos Aires
 
-Este proyecto se centra en el análisis del censo de arbolado urbano de la Ciudad de Buenos Aires, utilizando datos del censo 2017-2018. La fuente original de los datos se encuentra en el siguiente [enlace](https://cdn.buenosaires.gob.ar/datosabiertos/datasets/atencion-ciudadana/arbolado-publico-lineal/arbolado-publico-lineal-2017-2018.zip).
+Análisis del censo de arbolado urbano de la Ciudad de Buenos Aires, utilizando datos del censo 2017-2018. La fuente original de los datos se encuentra en el siguiente [enlace](https://cdn.buenosaires.gob.ar/datosabiertos/datasets/atencion-ciudadana/arbolado-publico-lineal/arbolado-publico-lineal-2017-2018.zip).
 
-## Descripción del Proyecto
+## Descripción
 
-El objetivo de este proyecto es proporcionar un análisis exploratorio del arbolado urbano en la Ciudad de Buenos Aires, utilizando herramientas de geoprocesamiento y sistemas de indexación geoespacial. Se calcula un indicador que es el ratio cantidad de arboles autóctonos / cantidad total de arboles de cada celda H3
+El objetivo de este trabajo es mostrar a través de un ejemplo como realizar análisis exploratorio con datos geo referenciados, utilizando herramientas de geoprocesamiento y sistemas de indexación geoespacial y su potencial uso en aplicaciones de políticas públicas.
+
+Se realiza una demo usando como indicador el ratio `cantida de arboles autóctonos / cantidad total de arboles` encontrados dentro de cada hexágono H3 (Aprox. 105 mil metros cuadrados).
 
 ## Datos
 
@@ -20,7 +22,7 @@ H3 es un sistema de indexación geoespacial que divide el mundo en celdas hexago
 - Realizar agregaciones espaciales y análisis de proximidad.
 - Facilitar la visualización y el mapeo de datos geoespaciales.
 
-Se utilizó una resolución H3 igual a 9 por lo tanto el indicador está agregado por cada 105.332,51 mts cuadrados. Ver [enlace](https://h3geo.org/docs/core-library/restable)
+Se utilizó una resolución 9 para el cálculo de los índices H3 por lo tanto el indicador está agregado por cada 105.332,51 mts cuadrados. Ver [enlace](https://h3geo.org/docs/core-library/restable)
 
 Más información sobre H3 se puede encontrar en la [documentación oficial](https://h3geo.org/docs/).
 
