@@ -35,7 +35,7 @@ GeoPandas es una biblioteca de Python que facilita el trabajo con datos geoespac
 ## Estructura del Proyecto
 
 - `DATA/`: Respositorio de datos necesarios para ejecutar la notebook.
-- `OUTPUT/`: Respositorio de archivos de salida luego de ejecutar la notebook. Estos archivos son utilizados luego para la visualización en el mapa utilizando [enlace](https://kepler.gl/).
+- `OUTPUT/`: Respositorio de archivos de salida luego de ejecutar la notebook. Estos archivos son utilizados luego para la visualización en el mapa utilizando [enlace](https://kepler.gl/). Dicho mapa es interecativo y se puede ver localmente abriendo el archivo kepler.gl.html con un browser
 - `README.md`: Este archivo, proporcionando una descripción general del proyecto.
 
 ## Instalación y Uso
