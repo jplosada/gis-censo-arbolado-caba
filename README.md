@@ -43,7 +43,7 @@ Cómo herramienta de visualización de mapas con estructuras de índices H3. [Ke
 ## Estructura del Proyecto
 
 - `DATA/`: Respositorio de datos necesarios para ejecutar la notebook.
-- `OUTPUT/`: Respositorio de archivos de datos de salida. Estos archivos son utilizados luego para la visualización en un mapa utilizando [Kepler.gl](https://kepler.gl/). El mapa es interactivo y se puede ver localmente abriendo el archivo `kepler.gl.html` con un browser. Versión del mapa on-line en [huggingface](jplosada/gis-censo-arbolada-caba)
+- `OUTPUT/`: Respositorio de archivos de datos de salida. Estos archivos son utilizados luego para la visualización en un mapa utilizando [Kepler.gl](https://kepler.gl/). El mapa es interactivo y se puede ver localmente abriendo el archivo `kepler.gl.html` con un browser. Versión del mapa on-line en [huggingface](https://huggingface.co/spaces/jplosada/gis-censo-arbolada-caba)
 - `exploracion.ipynb`: Esta notebook contiene el código necesario para descargar los datos del censo de arbolado, realizar el preprocesamiento de los datos incluyendo el cálculo del índice H3 y generar los archivos de salida para visualización la distribucíon del indicador en un mapa.
 
 ## Instalación y Uso
